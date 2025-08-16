@@ -3,14 +3,13 @@
 ### _The Ultimate Always-On Dashboard for Your AI Empire_
 
 <!-- Images side by side with equal size -->
-<p float="left">
-  <img src="images/image1.png" alt="Dashboard Screenshot" width="48%" style="margin-right:2%">
-  <img src="images/image2.png" alt="Resource Monitoring Screenshot" width="48%">
+<p align="center">
+<img src="https://user-images.githubusercontent.com/121322/32070717-16708784-ba42-11e7-8572-a8fcc10d7f7d.gif" alt="AI Control Center Demo" width="600" style="margin-bottom: 20px;"/>
 </p>
 
-<!-- GIF at the top -->
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/121322/32070717-16708784-ba42-11e7-8572-a8fcc10d7f7d.gif" alt="AI Control Center Demo" width="600"/>
+<p style="display: flex; justify-content: center; align-items: center;">
+<img src="images/image1.png" alt="Dashboard Screenshot" width="45%" style="margin-right:2%; vertical-align: middle;">
+<img src="images/image2.png" alt="Resource Monitoring Screenshot" width="45%" style="vertical-align: middle;">
 </p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
