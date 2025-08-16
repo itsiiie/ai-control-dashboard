@@ -229,18 +229,6 @@ git push origin feature/AmazingFeature
 
 ---
 
-## 🎊 **HALL OF FAME** 🎊
-
-**🏆 LEGENDARY CONTRIBUTORS 🏆**
-
-| Avatar | Contributor      | Contribution               |
-| ------ | ---------------- | -------------------------- |
-| 🚀     | **You**          | _The next legend to join!_ |
-| 💎     | **Future Hero**  | _Waiting for your PR_      |
-| ⚡     | **Code Warrior** | _Ready to make history_    |
-
----
-
 ## 📜 **LICENSE & CREDITS** 📜
 
 **MIT License** - _Because sharing is caring_ 💖
