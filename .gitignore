@@ -1,0 +1,10 @@
+# Logs and other temporary files
+/tmp/ai_control_menu.log
+
+# Operating System generated files
+.DS_Store
+Thumbs.db
+
+# Common editor temporary files
+*.swp
+*~
