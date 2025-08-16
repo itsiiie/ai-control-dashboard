@@ -1,6 +1,12 @@
 # 🚀🤖 AI CONTROL CENTER 🤖🚀
-### *The Ultimate Always-On Dashboard for Your AI Empire*
 
+### _The Ultimate Always-On Dashboard for Your AI Empire_
+
+<!-- Images side by side -->
+<p float="left">
+  <img src="images/image1.png" alt="Dashboard Screenshot" width="45%" style="margin-right:5%">
+  <img src="images/image2.png" alt="Resource Monitoring Screenshot" width="45%">
+</p>
 ```
     ╔═══════════════════════════════════════════════════════════════════════════════╗
     ║  🌟 ██████╗  ██████╗ ██╗    ██╗███████╗██████╗ ███████╗██████╗  🌟           ║
@@ -17,13 +23,14 @@
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![AI Powered](https://img.shields.io/badge/AI-POWERED-FF6B35?style=for-the-badge&logo=artificial-intelligence)](https://github.com)
 
-**🎯 MISSION:** *Transform your terminal into a CYBERPUNK AI COMMAND CENTER!*
+**🎯 MISSION:** _Transform your terminal into a CYBERPUNK AI COMMAND CENTER!_
 
 ---
 
 ## 🌟 **THE LEGENDARY FEATURES** 🌟
 
 ### 🎮 **REAL-TIME DASHBOARD**
+
 - ⚡ **LIVE METRICS** - CPU, Memory, Disk usage
 - 📊 **ANIMATED PROGRESS BARS** with color-coded status
 - 🎭 **SPINNING INDICATORS** and pulse animations
@@ -31,8 +38,9 @@
 - 🌈 **256-COLOR TERMINAL** eye candy
 
 ### 🤖 **AI SERVICE CONTROL**
+
 - 🚀 **OLLAMA SERVER** management
-- 💎 **OPEN WEBUI** container orchestration  
+- 💎 **OPEN WEBUI** container orchestration
 - 🔧 **DOCKER ENGINE** monitoring
 - ⚙️ **ONE-CLICK OPERATIONS** (start/stop/restart)
 - 📋 **HEALTH DIAGNOSTICS** with detailed reports
@@ -73,7 +81,7 @@
 git clone https://github.com/yourusername/ai-control-center.git
 cd ai-control-center
 
-# 2️⃣ Make it executable 
+# 2️⃣ Make it executable
 chmod +x script.sh
 
 # 3️⃣ LAUNCH THE BEAST! 🔥
@@ -92,14 +100,14 @@ chmod +x script.sh
 
 ## 🎮 **CONTROL INTERFACE** 🎮
 
-| **KEY** | **ACTION** | **DESCRIPTION** |
-|---------|------------|-----------------|
-| `1` | 🟢 **START** | Launch all AI services |
-| `2` | 🔴 **STOP** | Gracefully shutdown services |
-| `3` | 🔄 **RESTART** | Full system refresh |
-| `4` | 📋 **LOGS** | View detailed system logs |
-| `5` | 🩺 **HEALTH** | Complete diagnostics report |
-| `6` | 🚪 **EXIT** | Close dashboard |
+| **KEY** | **ACTION**     | **DESCRIPTION**              |
+| ------- | -------------- | ---------------------------- |
+| `1`     | 🟢 **START**   | Launch all AI services       |
+| `2`     | 🔴 **STOP**    | Gracefully shutdown services |
+| `3`     | 🔄 **RESTART** | Full system refresh          |
+| `4`     | 📋 **LOGS**    | View detailed system logs    |
+| `5`     | 🩺 **HEALTH**  | Complete diagnostics report  |
+| `6`     | 🚪 **EXIT**    | Close dashboard              |
 
 ---
 
@@ -133,6 +141,7 @@ BRIGHT_GREEN='\033[1;92m'
 ## 🎭 **FEATURE SHOWCASE** 🎭
 
 ### 🔥 **REAL-TIME MONITORING**
+
 - **CPU Usage Tracking** with animated progress bars
 - **Memory Consumption** visualization
 - **Disk Space** monitoring with color-coded alerts
@@ -140,13 +149,15 @@ BRIGHT_GREEN='\033[1;92m'
 - **Container Statistics** for Docker services
 
 ### 💎 **SERVICE MANAGEMENT**
+
 - **Background Service Control** - Non-blocking operations
 - **Automatic Health Checks** - Verify service availability
-- **Port Monitoring** - Ensure proper network configuration  
+- **Port Monitoring** - Ensure proper network configuration
 - **Log Aggregation** - Centralized logging system
 - **Status Persistence** - Remember last actions
 
 ### 🌟 **VISUAL EXCELLENCE**
+
 - **Animated Loading Spinners** - 10 frame animation cycle
 - **Color-Coded Status** - Green=Good, Red=Alert, Yellow=Warning
 - **Progress Bars** - Real-time resource visualization
@@ -165,15 +176,15 @@ graph TD
     A[🚀 AI Control Center] --> B[📊 Dashboard Engine]
     A --> C[⚙️ Service Manager]
     A --> D[📋 Health Monitor]
-    
+
     B --> E[🎨 Real-time Display]
     B --> F[📈 Metrics Collection]
     B --> G[🔄 Auto-refresh Loop]
-    
+
     C --> H[🤖 Ollama Service]
     C --> I[💎 Open WebUI]
     C --> J[🐳 Docker Engine]
-    
+
     D --> K[🩺 Port Scanning]
     D --> L[📊 Resource Monitoring]
     D --> M[📝 Log Analysis]
@@ -191,12 +202,14 @@ graph TD
 <summary>🔧 <strong>COMMON ISSUES & SOLUTIONS</strong></summary>
 
 ### ❌ **"Permission Denied"**
+
 ```bash
 chmod +x script.sh
 sudo ./script.sh  # If system-level access needed
 ```
 
 ### ❌ **"Docker not found"**
+
 ```bash
 # Install Docker (Ubuntu/Debian)
 curl -fsSL https://get.docker.com -o get-docker.sh
@@ -208,6 +221,7 @@ newgrp docker
 ```
 
 ### ❌ **"Ollama not responding"**
+
 ```bash
 # Manual Ollama installation
 curl -fsSL https://ollama.com/install.sh | sh
@@ -217,6 +231,7 @@ ollama serve
 ```
 
 ### ❌ **"Terminal colors not working"**
+
 ```bash
 # Check terminal color support
 echo $TERM
@@ -234,7 +249,7 @@ export TERM=xterm-256color
 # 🔨 Create your feature branch
 git checkout -b feature/AmazingFeature
 
-# 💎 Commit your changes  
+# 💎 Commit your changes
 git commit -m 'Add some AmazingFeature'
 
 # 🚀 Push to the branch
@@ -256,23 +271,23 @@ git push origin feature/AmazingFeature
 
 **🏆 LEGENDARY CONTRIBUTORS 🏆**
 
-| Avatar | Contributor | Contribution |
-|--------|-------------|--------------|
-| 🚀 | **You** | *The next legend to join!* |
-| 💎 | **Future Hero** | *Waiting for your PR* |
-| ⚡ | **Code Warrior** | *Ready to make history* |
+| Avatar | Contributor      | Contribution               |
+| ------ | ---------------- | -------------------------- |
+| 🚀     | **You**          | _The next legend to join!_ |
+| 💎     | **Future Hero**  | _Waiting for your PR_      |
+| ⚡     | **Code Warrior** | _Ready to make history_    |
 
 ---
 
 ## 📜 **LICENSE & CREDITS** 📜
 
-**MIT License** - *Because sharing is caring* 💖
+**MIT License** - _Because sharing is caring_ 💖
 
 ```
   ╔═══════════════════════════════════════════════════════════════════╗
   ║  Made with 💖 by developers who believe terminals should be FUN   ║
   ║                                                                   ║
-  ║  Special thanks to:                                               ║  
+  ║  Special thanks to:                                               ║
   ║  🤖 Ollama - For making AI accessible                            ║
   ║  🐳 Docker - For containerization magic                          ║
   ║  💎 Open WebUI - For beautiful AI interfaces                     ║
@@ -286,7 +301,7 @@ git push origin feature/AmazingFeature
 
 **Transform your boring terminal into a CYBERPUNK AI COMMAND CENTER!**
 
-*Every great journey begins with a single `./script.sh`*
+_Every great journey begins with a single `./script.sh`_
 
 ### ⭐ **STAR THIS REPO IF YOU LOVE IT!** ⭐
 
@@ -295,19 +310,20 @@ git push origin feature/AmazingFeature
 ---
 
 ## 🎪 **EASTER EGGS & SECRETS** 🎪
-*Click to reveal if you dare!*
+
+_Click to reveal if you dare!_
 
 ```bash
 # 🎭 Hidden Developer Mode
 export AI_CONTROL_DEBUG=1
 ./script.sh
 
-# 🌈 Rainbow Mode  
+# 🌈 Rainbow Mode
 export RAINBOW_MODE=1
 ./script.sh
 
 # 🚀 Turbo Refresh (0.5s intervals)
-export TURBO_MODE=1  
+export TURBO_MODE=1
 ./script.sh
 
 # 🎵 ASCII Art Mode
@@ -315,4 +331,4 @@ export ASCII_ART=1
 ./script.sh
 ```
 
-*"Those who discover the secrets unlock the true power of the AI Control Center"* 🔮
+_"Those who discover the secrets unlock the true power of the AI Control Center"_ 🔮
