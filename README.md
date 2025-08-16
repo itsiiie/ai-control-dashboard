@@ -2,14 +2,13 @@
 
 ### _The Ultimate Always-On Dashboard for Your AI Empire_
 
-<!-- Images side by side with equal size -->
 <p align="center">
-<img src="https://user-images.githubusercontent.com/121322/32070717-16708784-ba42-11e7-8572-a8fcc10d7f7d.gif" alt="AI Control Center Demo" width="600" style="margin-bottom: 20px;"/>
+<img src="https://user-images.githubusercontent.com/121322/32070717-16708784-ba42-11e7-8572-a8fcc10d7f7d.gif" alt="AI Control Center Demo" width="600"/>
 </p>
 
-<p style="display: flex; justify-content: center; align-items: center;">
-<img src="images/image1.png" alt="Dashboard Screenshot" width="45%" style="margin-right:2%; vertical-align: middle;">
-<img src="images/image2.png" alt="Resource Monitoring Screenshot" width="45%" style="vertical-align: middle;">
+<p align="center">
+<img src="images/image1.png" alt="Dashboard Screenshot" width="45%" style="margin-right:2%;">
+<img src="images/image2.png" alt="Resource Monitoring Screenshot" width="45%;">
 </p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
@@ -107,8 +106,7 @@ chmod +x script.sh
 
 ## ⚙️ **CONFIGURATION ZONE** ⚙️
 
-<details>
-<summary>🔧 <strong>CUSTOMIZATION OPTIONS</strong> (Click to expand)</summary>
+### 🔧 **CUSTOMIZATION OPTIONS**
 
 ```bash
 # 🎨 Color Customization
@@ -127,8 +125,6 @@ BRIGHT_PURPLE='\033[1;95m'
 BRIGHT_GREEN='\033[1;92m'
 # ... and 20+ more colors!
 ```
-
-</details>
 
 ---
 
@@ -160,40 +156,9 @@ BRIGHT_GREEN='\033[1;92m'
 
 ---
 
-## 📊 **SYSTEM ARCHITECTURE** 📊
-
-```mermaid
-graph TD
-
-
-
-    A[🚀 AI Control Center] --> B[📊 Dashboard Engine]
-    A --> C[⚙️ Service Manager]
-    A --> D[📋 Health Monitor]
-
-    B --> E[🎨 Real-time Display]
-    B --> F[📈 Metrics Collection]
-    B --> G[🔄 Auto-refresh Loop]
-
-    C --> H[🤖 Ollama Service]
-    C --> I[💎 Open WebUI]
-    C --> J[🐳 Docker Engine]
-
-    D --> K[🩺 Port Scanning]
-    D --> L[📊 Resource Monitoring]
-    D --> M[📝 Log Analysis]
-
-
-
-
-```
-
----
-
 ## 🏆 **TROUBLESHOOTING GUIDE** 🏆
 
-<details>
-<summary>🔧 <strong>COMMON ISSUES & SOLUTIONS</strong></summary>
+### 🔧 **COMMON ISSUES & SOLUTIONS**
 
 ### ❌ **"Permission Denied"**
 
@@ -224,15 +189,13 @@ curl -fsSL https://ollama.com/install.sh | sh
 ollama serve
 ```
 
-### ❌ **"Terminal colors not working"**
+### ❌ **Terminal colors not working**
 
 ```bash
 # Check terminal color support
 echo $TERM
 export TERM=xterm-256color
 ```
-
-</details>
 
 ---
 
